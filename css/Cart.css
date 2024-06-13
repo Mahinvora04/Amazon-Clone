@@ -1,0 +1,179 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+}
+#navbar-object {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  background-color: #eaeded;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+/* Products part of cart */
+.main-1 {
+  background-color: #fff;
+  padding: 50px;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+.cart-head {
+  font-size: 28px;
+}
+.cart-head-a {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.cart-head-a a {
+  text-decoration: none;
+  color: #007185;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+}
+
+.image1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.products {
+  width: 600px;
+}
+.product {
+  display: flex;
+  font-size: 18px;
+  height: 350px;
+  width: 600px;
+}
+.stock {
+  color: #007600;
+  font-size: 12px;
+  text-decoration: none;
+}
+.details {
+  width: 600px;
+  padding-left: 50px;
+}
+.details p {
+  padding: 0%;
+  margin: 0%;
+}
+.price-symbol {
+  font-size: 12px;
+}
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+.eligible {
+  color: #565959;
+  font-size: 14px;
+  text-decoration: none;
+}
+.gift {
+  font-size: 14px;
+  color: grey;
+}
+.qty-btn {
+  background-color: rgb(215, 215, 215);
+  border: none;
+  border-radius: 6px;
+}
+#quantitySelector {
+  background-color: rgb(215, 215, 215);
+}
+
+.qty-select {
+  background-color: rgb(215, 215, 215);
+  border: none;
+}
+.action-link {
+  font-size: 12px;
+  text-decoration: none;
+}
+.total-price {
+  font-size: 22px;
+  padding-left: 450px;
+}
+
+/* Price part of cart */
+
+.main-2 {
+  width: 450px;
+  height: 340px;
+  background-color: #fff;
+  padding: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.progress {
+  border-radius: 20px;
+}
+.free-del-p {
+  margin: 0%;
+  padding: 0%;
+  margin-left: 20px;
+}
+.free_del-a {
+  text-decoration: none;
+  color: #067d62;
+}
+
+.total-price-bill {
+  font-size: 22px;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.gift-bill {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.proceed-button {
+  width: 310px;
+  height: 31px;
+  padding: 3px 7px;
+  margin-top: 15px;
+  background-color: #ffd814;
+  border: none;
+  /* border-top-color: #949494; */
+  /* border: 1px solid #a6a6a6; */
+  border-radius: 9px;
+  color: black;
+}
+.proceed-to-buy-btn {
+  color: black;
+  text-decoration: none;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.card-body {
+  display: none; /* Hide the text initially */
+}
+
+.learn-more-a {
+  text-decoration: none;
+}
