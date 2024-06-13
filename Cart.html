@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon.in Shopping Cart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/Cart.css" />
+  </head>
+  <body>
+    <div class="object-div">
+      <object
+        id="navbar-object"
+        type="text/html"
+        data="header.html"
+        width="100%"
+        height="108px"
+      >
+        >
+      </object>
+    </div>
+
+    <div class="main d-flex">
+      <div class="main-1">
+        <div class="cart-head">Shopping Cart</div>
+        <div class="cart-head-a">
+          <a href="#" onclick="emptyCart()">Deselect all items</a>
+        </div>
+        <div class="products"></div>
+      </div>
+      <div class="main-2">
+        <div class="prog d-flex">
+          <div class="progress" style="width: 250px; margin: 20px">
+            <div
+              class="progress-bar bg-success"
+              role="progressbar"
+              style="width: 100%"
+            ></div>
+          </div>
+          <div style="margin-top: 20px">&#x20B9;499</div>
+        </div>
+        <p class="text-success free-del-p">
+          Your order is eligible for FREE Delivery.
+        </p>
+        <p class="free-del-p">
+          Choose <a href="#" class="free_del-a">FREE Delivery</a> option at
+          checkout.
+        </p>
+        <div class="total-price-bill">Subtotal (2 items): &#x20B9;</div>
+        <div class="gift-bill">
+          <input
+            type="checkbox"
+            name="gift-bill-input"
+            class="gift-bill-input"
+            id="gift-bill-input"
+          /><label for="gift-bill-input">This order contains a gift</label>
+        </div>
+
+        <button class="proceed-button" onclick="return validateForm()">
+          <a class="proceed-to-buy-btn" href="#">Proceed to Buy</a>
+        </button>
+        <div class="card" onclick="toggleText()">
+          <div class="card-header">EMI Available</div>
+          <div class="card-body" id="cardText">
+            Your order qualifies for EMI with valid credit cards (not available
+            on purchase of Gold, Jewelry, Gift cards and Amazon pay balance top
+            up). <a href="#" class="learn-more-a"> Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script/cart.js"></script>
+  </body>
+  <object
+    type="text/html"
+    data="footer.html"
+    width="100%"
+    height="615px"
+  ></object>
+</html>
