@@ -1,0 +1,340 @@
+* {
+  font-family: sans-serif;
+}
+#navbar-object {
+  position: fixed;
+  height: 110px !important;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* Ensure it stays on top of other content */
+  background-color: white; /* Adjust background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+.sub-navbar {
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  height: 36px;
+  margin-bottom: 10px;
+}
+
+.sub-navbar p {
+  margin: 0;
+  font-size: 16px;
+  color: #0f1111;
+  text-align: center;
+  text-align: left;
+  font-weight: 500;
+}
+.sub-nav-b {
+  color: #c45500;
+}
+
+.div-1 {
+  height: 1000px;
+  width: 250px;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+}
+.sidebar-h {
+  color: #0f1111;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.star {
+  color: #ffa41c;
+  padding: 3px;
+}
+
+.s-div-5 p {
+  padding: 0%;
+  margin: 0%;
+}
+.s-div-8 .size-box {
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+}
+.s-div-10 .c-boxes .c-box {
+  width: 30px;
+  height: 25px;
+  margin: 2px;
+  border: 1px solid rgb(205, 205, 205);
+}
+
+.div-2 {
+  width: 1000px;
+  color: #0f1111;
+}
+.vertical-line {
+  border-left: 1px solid rgb(184, 181, 181); /* Adjust thickness and color as needed */
+  height: 60px; /* Adjust height as needed */
+  margin: 0 22px; /* Center the line horizontally */
+}
+.surp-coll {
+  font-size: 18px;
+}
+.surp-coll-link {
+  font-size: 12px;
+}
+.surp-coll-link a {
+  text-decoration: none;
+}
+.head-img-sec {
+  margin: 10px 0;
+  width: 1000px;
+}
+.head-products {
+  margin-left: -150px;
+  display: flex;
+  background: linear-gradient(to right, #868686 0%, #ffffff 100%) !important;
+}
+.head-product {
+  background-color: white;
+  width: 200px;
+  height: 235px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #a4a3a3;
+  display: block;
+}
+.head-product img {
+  padding: 30px;
+}
+.head-product p {
+  padding: 0 6%;
+  font-size: 14px;
+  padding-left: 0px;
+  margin-top: -20px;
+}
+.head-product .star {
+  margin-top: -20px;
+}
+
+.body-div-head h4 {
+  font-weight: 600;
+}
+.body-div-head p {
+  color: #565959;
+  font-size: 14px;
+}
+.head-product .fa-star {
+  color: #ffa41c;
+}
+
+/* Products */
+.body-div {
+  flex-wrap: wrap;
+  width: auto;
+}
+@media screen and (max-width: 768px) {
+  #navbar-object {
+    height: 170px;
+  }
+  .sub-navbar {
+    margin-top: 170px;
+  }
+}
+
+/* Update CSS for better view without horizontal scrollbar */
+
+User * {
+  font-family: sans-serif;
+}
+#navbar-object {
+  position: fixed;
+  height: 100px;
+  top: 0;
+  width: 100%;
+  z-index: 9999; /* Ensure it stays on top of other content */
+  background-color: white; /* Adjust background color as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+
+.sub-navbar {
+  margin-top: 100px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  height: 36px;
+  margin-bottom: 10px;
+}
+
+.sub-navbar p {
+  margin: 0;
+  font-size: 16px;
+  color: #0f1111;
+  text-align: center;
+  text-align: left;
+  font-weight: 500;
+}
+.sub-nav-b {
+  color: #c45500;
+}
+
+.div-1 {
+  height: 1000px;
+  width: 250px;
+  background-color: white;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sidebar-h {
+  color: #0f1111;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.star {
+  color: #ffa41c;
+  padding: 3px;
+}
+
+.s-div-5 p {
+  padding: 0%;
+  margin: 0%;
+}
+.s-div-8 .size-box {
+  border: 1px solid black;
+  width: 50px;
+  border-radius: 5px;
+  margin: 3px;
+  text-align: center;
+}
+.s-div-10 .c-boxes .c-box {
+  width: 30px;
+  height: 25px;
+  margin: 2px;
+  border: 1px solid rgb(205, 205, 205);
+}
+
+.div-2 {
+  width: 1000px;
+  color: #0f1111;
+}
+.vertical-line {
+  border-left: 1px solid rgb(184, 181, 181); /* Adjust thickness and color as needed */
+  height: 60px; /* Adjust height as needed */
+  margin: 0 22px; /* Center the line horizontally */
+}
+.surp-coll {
+  font-size: 18px;
+}
+.surp-coll-link {
+  font-size: 12px;
+}
+.surp-coll-link a {
+  text-decoration: none;
+}
+.head-img-sec {
+  margin: 10px 0;
+  width: 1000px;
+}
+.head-products {
+  margin-left: -150px;
+  display: flex;
+  background: linear-gradient(to right, #868686 0%, #ffffff 100%) !important;
+}
+.head-product {
+  background-color: white;
+  width: 200px;
+  height: 235px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #a4a3a3;
+  display: block;
+}
+.head-product img {
+  padding: 30px;
+}
+.head-product p {
+  padding: 0 6%;
+  font-size: 14px;
+  padding-left: 0px;
+  margin-top: -20px;
+}
+.head-product .star {
+  margin-top: -20px;
+}
+
+.body-div-head h4 {
+  font-weight: 600;
+}
+.body-div-head p {
+  color: #565959;
+  font-size: 14px;
+}
+.head-product .fa-star {
+  color: #ffa41c;
+}
+
+/* Products */
+.body-div {
+  flex-wrap: wrap;
+  width: auto;
+}
+@media screen and (max-width: 768px) {
+  #navbar-object {
+    height: 170px;
+  }
+  .sub-navbar {
+    margin-top: 170px;
+  }
+}
+/* Add this CSS inside your products.css file */
+
+/* Media queries for tablets and smaller screens */
+@media (max-width: 991.98px) {
+  .object-div {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  object[type="text/html"] {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.product {
+  text-align: center;
+  width: 310px;
+  height: 750px;
+  color: #0f1111;
+  border: 1px solid #f1f0f0;
+  padding: 20px;
+  margin: 5px;
+}
+.product p {
+  margin: 0px;
+}
+.product .colours {
+  font-size: 12px;
+  color: #007185;
+}
+.product .sponsored {
+  font-size: 11px;
+  color: #565959;
+}
+.product .product-price {
+  font-size: 14px;
+  align-items: center;
+  padding-left: 45px;
+}
+.product .checked-price {
+  text-decoration: line-through;
+}
+.product .deal-btn {
+  color: white;
+  background-color: #cc0c39;
+  border: none;
+}

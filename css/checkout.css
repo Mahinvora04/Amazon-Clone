@@ -1,0 +1,102 @@
+* {
+  font-family: sans-serif;
+  border: border-box;
+}
+
+.main {
+  background-color: #eaeded;
+  margin-top: 10px;
+}
+.navbar-checkout {
+  height: 80px;
+  background: linear-gradient(to bottom, #ffffff 0%, #cfcfcf 100%);
+  justify-content: space-between;
+}
+.logo {
+  background: url("/images/amazon_black_logo.jpg");
+  background-color: transparent;
+  height: 150px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+.checkout-heading {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.main-1 {
+  background-color: #fff;
+  padding-left: 40px;
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+.sub-div-1-heading {
+  color: #c45500;
+}
+
+.sub-div-1 {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 10px;
+}
+.address-div {
+  padding: 10px;
+  margin: 10px;
+  margin-left: 0px;
+  background-color: #fcf5ee;
+  border: 1px solid rgb(253, 219, 157);
+}
+.add-address-div-plus {
+  color: grey;
+  font-size: 26px;
+  margin-top: -10px;
+  padding-top: 0px;
+  font-weight: 200;
+}
+.add-address-div {
+  color: #007185;
+  font-weight: bolder;
+}
+.pick-up-div-heading {
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.pick-up-div {
+  color: #007185;
+}
+.sub-div-2,
+.sub-div-3 {
+  color: grey;
+}
+.main-2 {
+  width: 450px;
+  height: 340px;
+  background-color: #fff;
+  padding: 40px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+.address-button {
+  width: 310px;
+  height: 31px;
+  padding: 3px 7px;
+  margin-top: 15px;
+  background-color: #ffd814;
+  border: none;
+  border-radius: 9px;
+  color: black;
+}
+.address-btn-a {
+  color: black;
+  text-decoration: none;
+}
+.total-price-bill {
+  font-size: 22px;
+  padding-top: 10px;
+  color: #c45500;
+  font-weight: bolder;
+}
